@@ -1,6 +1,9 @@
+from collections import Counter
+import random
+import numpy as np
 from app.models import GameRound
 from app import db
-# Other necessary imports
+
 
 class RockPaperScissorsAI:
     def __init__(self):
